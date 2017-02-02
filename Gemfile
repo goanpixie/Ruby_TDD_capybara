@@ -29,7 +29,10 @@ gem 'spring',        group: :development
 group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'selenium-webdriver', '~> 3.0.5' 
 end
+
+
 
 
 # Use ActiveModel has_secure_password
